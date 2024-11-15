@@ -5,7 +5,6 @@ def back(time):
     return time
 
 def mintohour(time):
-    # Extract the hours and minutes
     hours = time // 100
     minutes = time % 100
     if minutes >= 60:
