@@ -1,7 +1,6 @@
 data = []
 n = input().split()
 data.append((n[0], int(n[1])))
-
 while "Waterloo" not in n[0]:
     n = input().split()
     data.append((n[0], int(n[1])))
